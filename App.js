@@ -11,6 +11,7 @@ import Test, {Bonjour, MonComposant, DireBonjourNom } from './components/Test';
 // import {Bonjour} from './components/Test';
 import Contacts from './components/Contacts'
 import Flat from './components/Flat'
+import Form from './components/Form'
 
 export default function App() {
   // la declaration de la variable d'etat se fait sous forme de tableau contenant la variable elle meme et la fonction permettant de manipuler la variable.
@@ -24,7 +25,8 @@ export default function App() {
       {/* {
         noms.map(nom => (<DireBonjourNom nom={nom}/>))
       } */}
-      <Contacts/>
+      {/* <Contacts/> */}
+      <Form/>
       {/* <Scroll/> */}
       {/* <Flat/>
       <View style={styles.top}>
@@ -41,9 +43,10 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FFF',
+    backgroundColor: 'orange',
     alignItems: 'center',
     justifyContent: 'center',
+    width: '100%'
   },
   top:{
     flex: 2,

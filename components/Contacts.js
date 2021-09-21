@@ -1,6 +1,6 @@
 // importation des dependances
 import React, {useState} from 'react';
-import Liste from './Liste';
+import Liste from './List';
 import {View, StyleSheet} from 'react-native';
 
 
