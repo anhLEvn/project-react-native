@@ -39,11 +39,12 @@ function MyComponent(props){
         </View>
     )
 }
-function DireBonjour(nom){
+
+function DireBonjour({nom}){
     return (
         <View>
-            <Text>{nom}</Text>
+            <Text>Bonjour {nom}</Text>
         </View>
     )
 }
-export {Bonjour,MyComponent, DireBonjour}
+export {Bonjour, MyComponent, DireBonjour}
